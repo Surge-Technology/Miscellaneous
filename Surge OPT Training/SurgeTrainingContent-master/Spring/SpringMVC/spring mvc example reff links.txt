@@ -1,0 +1,70 @@
+
+
+https://viralpatel.net/blogs/spring-mvc-interceptor-example/
+Spring 3 MVC Interceptor - Work Example
+How to invoke preHandle(..) method
+postHandle(..) Invocation
+About afterCompletion(..) 
+Interceptor Configuration
+The Interceptor – Spring MVC HandlerInterceptor
+Spring Configuration
+
+*******************************************************************************************************************
+https://www.codejava.net/frameworks/spring/spring-mvc-with-jdbctemplate-example - Good One - Working Example
+**************************************************************************************************************************************
+https://dzone.com/articles/spring-mvc-example-for-user-registration-and-login-1
+Spring MVC Example for User Registration and Login 
+Create a Maven Project
+Update Pom.xml for Dependencies
+Update web.xml
+Create spring-mvc-servlet.xml
+Create Controllers
+Create POJO Classes
+Create DAO Classes
+Create Spring Beans Configuration
+Create Tables in MySQL
+Create Views
+Maven Build and Run the application
+**************************************************************************************************************************************
+https://www.boraji.com/spring-4-mvc-pathvariable-annotation-example
+Spring MVC 4 - @PathVariable annotation example
+Controller class
+Spring configuration
+Servlet container initialization
+Build + Deploy + Run application
+https://www.boraji.com/spring-4-mvc-requestmapping-annotation-example
+Spring MVC 4 - @RequestMapping annotation example
+Writting Controller Classes
+JSP view
+Spring configuration
+Servlet container initialization
+Build + Deploy + Run application
+
+**************************************************************************************************************************************
+https://www.javaguides.net/2018/10/spring-mvc-5-hello-world-example.html
+Spring MVC 5 - Hello World Example 
+Create Maven Web Application
+Add Dependencies - pom.xml File
+Spring Configuration - AppConfig.java
+InternalResourceViewResolver
+Servlet Container Initialization 
+Model Class - HelloWorld.java
+Controller Class - HelloWorldController.java
+View - helloworld.jsp
+Run Application
+**************************************************************************************************************************************
+https://java2blog.com/spring-mvc-exceptional-handling-using-exceptionhandler-example/
+Spring MVC Exceptional Handling using @ExceptionHandler example
+Maven dependencies
+Spring application configuration:
+Create Controller
+Create view
+Run the application
+https://java2blog.com/spring-boot-tutorial/Spring Boot 
+What is Spring Boot?
+**************************************************************************************************************************************
+
+https://www.javaguides.net/2018/11/spring-getmapping-postmapping-putmapping-deletemapping-patchmapping.html
+
+Spring @RequestBody and @ResponseBody Annotations
+Spring @GetMapping, @PostMapping, @PutMapping, @DeleteMapping and @PatchMapping 

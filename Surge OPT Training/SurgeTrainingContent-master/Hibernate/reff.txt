@@ -1,0 +1,59 @@
+Spring Data:
+Basics of Spring Data
+Why is Spring Data needed? 	
+What are the different interfaces provided by Spring Data?
+How to get started with Spring Data?
+Spring Data Commons
+Crud Repository
+Different Types Of Spring Data Implementations
+Spring Data - Crud Project Execution
+
+==========================================================
+callicoder.com
+Spring Boot REST API - JPA MQSQL CRUD Project 
+
+Creating the maven Project using Spring Initializer 
+Exploring the Directory Structure
+About @Configuration 
+About @EnableAutoConfiguration 
+About @ComponentScan 
+Configuring MySQL Database
+Creating the Note model
+Creating NoteRepository to access data from the database
+Creating NoteController
+Get All Notes (GET /api/notes)
+Create a new Note (POST /api/notes)
+Get a Single Note (Get /api/notes/{noteId})
+Update a Note (PUT /api/notes/{noteId})
+Delete a Note (DELETE /api/notes/{noteId})
+Running the Application
+Testing the APIs via POSTMAN
+	Creating a new Note using POST /api/notes API
+	Retrieving all Notes using GET /api/notes API
+	Retrieving a single Note using GET /api/notes/{noteId} API
+	Updating a Note using PUT /api/notes/{noteId} API
+	Deleting a Note using DELETE /api/notes/{noteId} API
+Troubleshooting in team memebers workspace
+ 
+========================================================================
+https://howtodoinjava.com/spring-boot/spring-boot-tutorial-with-hello-world-example/ 
+Spring boot REST API Hello world example:
+Create spring boot hello world project template
+Import spring boot project to eclipse
+Spring boot auto configuration
+Spring boot annotations
+Spring boot REST API 
+	Create REST Controller
+	About @RestController
+	About @RequestBody
+	About @ResponseBody
+	About @ResponseEntity
+	Create Model
+Invoking REST Api via Client browser
+Troubleshooting in team members workspace to execute this project
+JPA:
+	What is JPA
+	Introduction to the Java Persistence API
+	What is Java ORM?
+	Data persistence in Java
+	Why JPA

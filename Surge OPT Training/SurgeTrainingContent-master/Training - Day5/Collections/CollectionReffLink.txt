@@ -1,0 +1,3 @@
+https://www.callicoder.com/java-arraylist/
+
+https://www.java2novice.com/java-collections-and-util/hashmap/ - Good

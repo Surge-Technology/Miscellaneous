@@ -1,0 +1,38 @@
+package CollectionProto;
+
+import java.util.*;
+
+public class SetIterateOverHashSetDemo {
+	public static void main(String[] args) {
+        Set<String> programmingLanguages = new HashSet<>();
+        programmingLanguages.add("C");
+        programmingLanguages.add("C++");
+        programmingLanguages.add("Java");
+        programmingLanguages.add("Python");
+        programmingLanguages.add("PHP");
+        programmingLanguages.add("Ruby");
+
+        System.out.println("=== Iterate over a HashSet using Java 8 forEach and lambda ===");
+        programmingLanguages.forEach(programmingLanguage -> {
+            //System.out.println(programmingLanguage);
+        });
+
+        System.out.println("=== Iterate over a HashSet using iterator() ===");
+        Iterator<String> programmingLanguageIterator = programmingLanguages.iterator();
+        while (programmingLanguageIterator.hasNext()) {
+            String programmingLanguage = programmingLanguageIterator.next();
+            //System.out.println(programmingLanguage);
+        }
+
+        System.out.println("=== Iterate over a HashSet using iterator() and Java 8 forEachRemaining() method ===");
+        programmingLanguageIterator = programmingLanguages.iterator();
+        programmingLanguageIterator.forEachRemaining(programmingLanguage -> {
+           // System.out.println(programmingLanguage);
+        });
+
+        System.out.println("=== Iterate over a HashSet using simple for-each loop ===");
+        for(String sampleStr: programmingLanguages) {
+            System.out.println(sampleStr);
+        }
+    }
+}

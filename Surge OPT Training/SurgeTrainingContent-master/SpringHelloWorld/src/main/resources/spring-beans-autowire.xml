@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="studentAutowire" class="com.surge.spring.autowiring.StudentAutowire" autowire="byName">
+	</bean>
+	<bean id="collegeAutowire" class="com.surge.spring.autowiring.CollegeAutowire">
+		<property name="collegeName" value="ACCETMOD"></property>
+		<property name="collegeAddr" value="KaraikudiMOD"></property>
+	</bean>
+	
+	<bean id="personAutowireByType" class="com.surge.spring.autowiring.PersonAutowireByType" autowire="byType">
+	</bean>
+	<bean id="abiltiyAutowireByTypeMOD" class="com.surge.spring.autowiring.AbiltiyAutowireByType">
+		<property name="skill" value="US MASTER BY TYPE"></property>
+		
+	</bean>
+	
+	<bean id="developerAutowireConstructor" class="com.surge.spring.autowiring.DeveloperAutowireConstructor" autowire="constructor">
+	</bean>
+	<bean id="languagemod" class="com.surge.spring.autowiring.Language">
+		<property name="prefLang" value="Java Spring"></property>		
+	</bean>
+</beans>

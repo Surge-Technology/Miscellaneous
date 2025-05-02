@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<!-- Mapping With Model Class -->
+	
+	
+	
+	<bean id="nobin" class="com.surge.spring.example.HelloWorld">
+		<property name="username" value="Surge Team Batch 6"></property>
+		<property name="empSalary" value="200"></property>
+		<!-- <property name="pwd" value="123456"></property> -->
+	</bean>
+	
+	
+
+
+	<bean id="student" class="com.surge.spring.example.Student">
+		<property name="roll" value="101"></property>
+		<property name="name" value="muralibabu"></property>
+		<property name="studentAddress" ref="studentAddress"></property>
+	</bean>
+	
+	<bean id="studentAddress" class="com.surge.spring.example.StudentAddress">
+		<property name="place" value="kknagar"></property>
+		<property name="city" value="chennai"></property>
+	</bean>
+	<bean id="studentmod" class="com.surge.spring.example.Student">
+		<property name="roll" value="1001"></property>
+		<property name="name" value="Vikash Kumar mod"></property>
+		<property name="studentAddress" ref="studentAddress"></property>
+	</bean>
+	
+
+
+	<bean id="listInjection" class="com.surge.spring.example.ListInjection">
+		<property name="studentList">
+			<list>
+				<value>murali</value>
+				<value>lavanya</value>
+				<value>nitish</value>
+				<value>santo</value>
+			</list>
+		</property>
+		<property name="mobileNumber">
+			<set value-type="java.lang.String">
+				<value>123</value>
+				<value>123456</value>
+				<value>789654123</value>
+				<value>123</value>
+
+			</set>
+		</property>
+	</bean>
+
+
+	<bean id="mapInjection" class="com.surge.spring.example.MapInjection">
+		<property name="studentMap">
+			<map key-type="java.lang.Integer" value-type="java.lang.String">
+				<entry key="101" value="murali"></entry>
+				<entry key="102" value="soc"></entry>
+				<entry key="103" value="joel"></entry>
+				<entry key="104" value="lavanya"></entry>
+				<entry key="104" value="nobin"></entry>
+				
+			</map>
+		</property>
+	</bean>
+
+	<bean id="mapInjectionClassRef" class="com.surge.spring.example.MapInjectionClassRef">
+		<property name="studentMap">
+			<map key-type="java.lang.Integer" value-type="com.surge.spring.example.Student">
+				<entry key="101">
+					<ref bean="student" />
+				</entry>
+				<entry key="102">
+					<ref bean="studentmod" />
+				</entry>
+			</map>
+		</property>
+	</bean>
+
+	<bean id="propInjection" class="com.surge.spring.example.PropInjection">
+		<property name="propAttribute">
+			<props>
+				<prop key="101">Sachin</prop>
+				<prop key="102">MSD</prop>
+			</props>
+		</property>
+	</bean>
+
+
+	<bean id="SingletonBeanDemo" class="com.surge.spring.example.SingletonBeanDemo"
+		scope="singleton">
+		<property name="roll" value="101"></property>
+		<property name="name" value="SingletonDemoPErson"></property>
+	</bean>
+
+
+	<!-- <bean id="studentconstructor" class="com.surge.spring.constructorexample.Student">
+		<constructor-arg ref="address"></constructor-arg>
+		<constructor-arg value="101"></constructor-arg>
+		<constructor-arg value="Vikasconstructor"></constructor-arg>
+	</bean>
+	<bean id="address" class="com.surge.spring.constructorexample.StudentAddress">
+		<constructor-arg value="Ameerpetcons"></constructor-arg>
+		<constructor-arg value="Hyderabadcons"></constructor-arg>
+	</bean> -->
+
+
+
+
+
+
+
+</beans>

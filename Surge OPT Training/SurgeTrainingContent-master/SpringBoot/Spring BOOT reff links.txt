@@ -1,0 +1,77 @@
+Spring Boot Basics
+=====================
+
+https://www.javaguides.net/p/spring-boot-tutorial.html
+
+Getting Started with Spring Boot
+What is Spring Boot?
+Spring Boot Primary Goals
+Key Spring Boot features
+Spring Boot Starters
+Spring Boot Autoconfiguration
+Elegant Configuration Management
+Spring Boot Actuator
+Easy-to-Use Embedded Servlet Container Support
+***********************************************************************************************************************
+
+
+Create Spring Boot Project With Spring Initializer
+Launch Spring Initializr
+Specify Project Details
+Import project in Eclipse
+
+https://www.javaguides.net/2018/09/overview-of-spring-boot-starter-parent.html
+
+Spring Boot Starter Parent 
+Overview
+What is the Spring Boot Starter Parent and How to use it?
+Parent Project Features
+What is inside Spring Boot Starter Parent?
+Using Spring Boot without the Parent POM
+What does Spring Boot Starter Parent inherit from spring-boot-dependencies?
+
+**************************************************************************************************************************
+https://www.javaguides.net/2018/09/spring-boot-building-restful-web-service.html
+Spring Boot REST API Development 
+
+Spring Restful Web Services Example 
+Create Spring boot Project
+The pom.xml File Configuration
+spring-boot-starter-parent
+Create a resource representation class
+Create a resource controller
+Make the application executable
+Running the Application
+
+Spring Boot CRUD REST APIs Validation Example (https://www.javaguides.net/2018/09/spring-boot-crud-rest-apis-validation-example.html)
+Steps to use Validation
+
+
+*************************************************************************************************************************************
+
+SpringBOOT - SpringMVC - CRUD
+
+https://www.codejava.net/frameworks/spring-boot/spring-boot-crud-example-with-spring-mvc-spring-data-jpa-thymeleaf-hibernate-mysql
+**********************************************************************************************************************************
+
+Spring Boot Configuration
+	Spring Boot 2 Java Based Configuration Example
+	Spring Boot 2 XML Configuration Example
+
+
+Spring Boot Annotations
+	Spring Boot @EnableAutoConfiguration Annotation with Example
+	Spring Boot @SpringBootApplication Annotation with Example // Popular
+
+************************************************************************************************************************************
+	
+Spring Boot Web Application Development
+https://www.javaguides.net/2019/04/spring-boot-thymeleaf-crud-example-tutorial.html
+Creating a Spring Boot Application
+Project Structure
+Maven Dependencies - Pom.xml
+Domain Layer
+The Repository Layer
+The Controller Layer
+The View Layer
+Running the Application

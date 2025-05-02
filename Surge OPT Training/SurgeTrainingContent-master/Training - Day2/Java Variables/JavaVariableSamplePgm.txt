@@ -1,0 +1,79 @@
+Local Variables:
+A variable defined within a block or method or constructor is called local variable.
+These variable are created when the block in entered or the function is called and destroyed after exiting from the block or when the call returns from the function.
+The scope of these variables exists only within the block in which the variable is declared. i.e. we can access these variable only within that block.
+Initilisation of Local Variable is Mandatory.
+
+
+public class StudentDetails 
+{ 
+    public void StudentAge()  
+    {   //local variable age 
+        int age = 0; 
+        age = age + 5; 
+        System.out.println("Student age is : " + age); 
+    } 
+  
+    public static void main(String args[]) 
+    { 
+        StudentDetails obj = new StudentDetails(); 
+        obj.StudentAge(); 
+    } 
+} 
+
+Instance Variables: 
+Instance variables are non-static variables and are declared in a class outside any method, constructor or block.
+As instance variables are declared in a class, these variables are created when an object of the class is created and destroyed when the object is destroyed.
+Unlike local variables, we may use access specifiers for instance variables. If we do not specify any access specifier then the default access specifier will be used.
+Initilisation of Instance Variable is not Mandatory. Its default value is 0
+Instance Variable can be accessed only by creating objects.
+
+public class InstanceVarExample {
+   String myInstanceVar="instance variable";
+	
+   public static void main(String args[]){
+	InstanceVarExample obj = new InstanceVarExample();
+	InstanceVarExample obj2 = new InstanceVarExample();
+	InstanceVarExample obj3 = new InstanceVarExample();
+		
+	System.out.println(obj.myInstanceVar);
+	System.out.println(obj2.myInstanceVar);
+	System.out.println(obj3.myInstanceVar);
+
+		
+	obj2.myInstanceVar = "Changed Text";
+
+		
+	System.out.println(obj.myInstanceVar);
+	System.out.println(obj2.myInstanceVar);
+	System.out.println(obj3.myInstanceVar);
+   }
+}
+
+Static Variables:
+Static variables are also known as Class variables.
+These variables are declared similarly as instance variables, the difference is that static variables are declared using the static keyword within a class outside any method constructor or block.
+Unlike instance variables, we can only have one copy of a static variable per class irrespective of how many objects we create.
+Initilisation of Static Variable is not Mandatory. Its default value is 0
+If we access the static variable like Instance variable (through object), compiler will show the warning message and it wont hault the program. Compiler will replace the object name to class name automatically.
+If we access the static variable without classname, Compiler will automatically append the class name.
+
+class VariableStaticDemo
+{
+   static int count=0;
+   public void increment()
+   {
+       count++;
+   }
+   public static void main(String args[])
+   {
+       VariableDemo obj1=new VariableDemo();
+       VariableDemo obj2=new VariableDemo();
+       obj1.increment();
+       System.out.println("Obj1: count is="+obj1.count);
+       obj2.increment();
+       
+       System.out.println("Obj2: count is="+obj2.count);
+   }
+}
+

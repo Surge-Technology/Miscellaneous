@@ -1,0 +1,75 @@
+https://www.javacodegeeks.com/2017/12/what-are-microservices.html
+
+https://medium.com/clover-platform-blog/building-a-microservice-with-spring-boot-and-spring-cloud-1c8275d7d229 - good one
+
+https://www.springboottutorial.com/creating-microservices-with-spring-boot-part-1-getting-started - good
+
+http://javaonfly.blogspot.com/2017/07/microservicespring-cloud-eureka-server.html - too too good
+
+http://javaonfly.blogspot.com/2017/07/microservices-communication-service-to.html - too good
+
+https://www.youtube.com/watch?v=GboiMJm6WlA - please watch this video
+
+https://www.youtube.com/watch?v=j1gU2oGFayY - please watch this video
+
+
+https://gorillalogic.com/blog/microservices-with-spring-boot-and-spring-cloud-developer-tutorial/ - too too good
+
+What are Microservices?
+Characteristics of Microservices
+What is Monolithic ?
+Monolithic vs. Microservices
+Microservices Architecture
+Benefits of Microservices
+
+https://www.javacodegeeks.com/2017/12/microservices-implementation-example-spring-boot.html
+Microservices implementation example with Spring Boot
+
+Understanding Service Registry
+Client side discovery
+Server side 
+What is Service Registry
+Microservices Implementation
+Creation of Eureka Discovery Server
+Creating Producer Microservice
+Create Consumer Microservice
+Testing the application
+
+Spring Cloud Service Discovery with Netflix Eureka - https://howtodoinjava.com/spring-cloud/spring-cloud-service-discovery-netflix-eureka/
+Overview
+Eureka Service Registry Server 
+Student Microservice
+School Microservice 
+What is Netflix Eureka Server and Clients?
+Eureka Service Registry Server
+Server Configuration
+Test Eureka Server
+
+
+Eureka Client – Student Service
+Create Eureka Client Project
+Client Configuration
+Add REST API
+Test Eureka Client
+Eureka Client – School Service
+Create Eureka Client Project
+Client Configuration
+Add REST API which consume student service’s REST API
+Demo of Service Discovery and Calling
+
+
+Spring Cloud – Zuul API Gateway - https://howtodoinjava.com/spring-cloud/spring-cloud-api-gateway-zuul/
+Where Zuul fits in microservices ecosystem?
+Zuul Components
+Overview of netflix zuul example
+Create Student Microservice
+Add few REST Endpoint
+Application Configurations
+Verify Student Service
+Create Zuul Gateway Service Proxy
+Enable Zuul Service Proxy
+Zuul routes configuration
+Add Zuul Filters
+Register zuul filters
+Netflix zuul example demo
+ 

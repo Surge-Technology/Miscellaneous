@@ -1,0 +1,5 @@
+https://www.homeandlearn.co.uk/java/java_arrays.html
+https://www.mkyong.com/java/java-how-to-declare-and-initialize-an-array/
+
+
+https://javapapers.com/core-java/java-array/

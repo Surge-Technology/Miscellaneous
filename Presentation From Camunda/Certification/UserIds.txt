@@ -1,0 +1,88 @@
+murali.muthu@surgetechinc.com
+murali@3978
+
+
+nazym@surgetechinc.com - next attempt -  12.45 p.m
+Cacaomacao77!
+
+nitishk@surgetechinc.com - next attempt - 2.00 a.m
+Camunda@94
+
+saikiran.t@surgetechinc.com - next attempt - 1.30 a.m 
+Surge@143
+
+santhosh.d@surgetechinc.com - next attempt -  11.40 a.m
+Sk9492852994
+
+email- samuel@surgetechinc.com - next attempt -  12.50 a.m
+password-Surge@143
+
+
+Which statements about Optimize are true? 16
+
+The data is a near real-time representation of the engine database
+Optimize is only available with an enterprise license
+Optimize supports reports based on DMN tables
+Optimize is Camunda’s tool for process mining
+
+
+
+You want to assign a user to "TaskTwo" as soon as he claims "TaskOne". What event would you hook into on "TaskOne" to make this happen?
+
+1)TaskListener.EVENTNAME_ASSIGNMENT
+2)TaskListener.EVENTNAME_COMPLETE
+3)TaskListener.EVENTNAME_CREATE
+4)TaskListener.EVENTNAME_DELETE
+5)ExecutionListener.EVENTNAME_TAKE
+
+2 - Wrong
+4 - Wrong
+5 - Wrong
+1 - Wrong
+2,1 - ?
+Which of the following models are wrong?
+Person c, d - Wrong
+Person d - Wrong
+person b, person d - Wrong
+A, D - later
+A, C, D - correct
+
+Please select one or more answers that would complete the following sentence: 
+Business-IT-Alignment...
+
+1) can never be achieved.
+2) needs readable process diagrams.
+3) needs executable process diagrams.
+4) is only possible when business analysts work with Eclipse.
+
+2 - wrong
+3 - Wrong
+2,3 - Correct
+
+Camunda is often deployed to supported containers as a standalone Web Application. What deployment type does usually not follow that pattern?
+
+1) Embedded Engine
+2) Remote Engine
+3) Shared Engine
+4) Standalone Engine
+5) All of the above
+
+5 - wrong
+1 - Correct
+
+
+What can happen to running instances of a process when a new version of that process is deployed?
+
+1) They may not be affected and continue running on the version they were started on.
+2) They could be migrated to the new version using Cockpit or the engine API.
+3) They could all be cancelled and the original process definition removed.
+4) By default, they will automatically continue on the new version as soon as it gets deployed.
+5) All of the above.
+
+1,2 - Wrong
+1 - Wrong
+4 - Wrong
+1,4 - Wrong
+1,2,4 - Wrong
+
+

@@ -1,0 +1,57 @@
+Java Array Exercises: Calculate the average value of array elements - https://www.w3resource.com/java-exercises/array/java-array-exercise-4.php
+Java Array Exercises: Test if an array contains a specific value - https://www.w3resource.com/java-exercises/array/java-array-exercise-5.php
+
+Java Array Exercises: Copy an array by iterating the array - https://www.w3resource.com/java-exercises/array/java-array-exercise-8.php
+
+Java Array Exercises: Find the duplicate values of an array of string values - https://www.w3resource.com/java-exercises/array/java-array-exercise-13.php
+
+
+Java Array Exercises: Find the common elements between two arrays - https://www.w3resource.com/java-exercises/array/java-array-exercise-14.php
+Java Array Exercises: Remove duplicate elements from an array - https://www.w3resource.com/java-exercises/array/java-array-exercise-16.php
+
+Java Method Exercises: Calculate the area of a triangle - https://www.w3resource.com/java-exercises/method/java-method-exercise-13.php
+
+Write a Java method to check whether a string is a valid password. - https://www.w3resource.com/java-exercises/method/java-method-exercise-11.php
+
+Password rules:
+A password must have at least ten characters.
+A password consists of only letters and digits.
+A password must contain at least two digits.
+
+Write a Java method to compute the future investment value at a given interest rate for a specified number of years. - https://www.w3resource.com/java-exercises/method/java-method-exercise-8.php
+
+Sample data (Monthly compounded):
+Input the investment amount: 1000
+Input the rate of interest: 10
+Input number of years: 5 
+
+Write a Java method to count all words in a string. - https://www.w3resource.com/java-exercises/method/java-method-exercise-5.php
+
+Test Data:
+Input the string: The quick brown fox jumps over the lazy dog.
+
+Java String Exercises: Test if a given string contains the specified sequence of char values - https://www.w3resource.com/java-exercises/string/java-string-exercise-8.php
+
+
+Java String Exercises: Concatenate a given string to the end of another string - https://www.w3resource.com/java-exercises/string/java-string-exercise-7.php
+=============================
+
+https://www.codesdope.com/practice/java-classes-and-objects/
+
+
+Write a program by creating an 'Employee' class having the following methods and print the final salary.
+1 - 'getInfo()' which takes the salary, number of hours of work per day of employee as parameter
+2 - 'AddSal()' which adds $10 to salary of the employee if it is less than $500.
+3 - 'AddWork()' which adds $5 to salary of employee if the number of hours of work per day is more than 6 hours. 
+
+======================================
+
+
+https://www.codesdope.com/practice/java-classes-and-objects/
+
+Create a class called 'Matrix' containing constructor that initializes the number of rows and number of columns of a new Matrix object. The Matrix class has the following information:
+1 - number of rows of matrix
+2 - number of columns of matrix
+3 - elements of matrix in the form of 2D array 
+
+

@@ -1,0 +1,31 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans     
+        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+        http://www.springframework.org/schema/context 
+        http://www.springframework.org/schema/context/spring-context-3.0.xsd
+       ">
+
+	<context:annotation-config />
+	
+
+	<bean id="book" class="com.spring.main.Book">
+		<property name="isbn" value="80-000-000" />
+		<property name="year" value="2016" />
+	</bean>
+
+	<bean id="author" class="com.spring.main.Author">
+		<property name="address" value="OMR Chennai" />
+		<property name="name" value="Mukesh" />
+	</bean>
+	
+ <!-- Definition for Product bean -->
+   <bean id="product" class="com.spring.main.Product">
+      <property name="name"  value="ProductA" />
+   </bean>
+	
+	
+
+</beans> 

@@ -1,0 +1,19 @@
+https://medium.com/extend/what-is-rest-a-simple-explanation-for-beginners-part-1-introduction-b4a072f8740f
+
+@REQUESTBODY, @RESPONSEBODY
+https://springbootdev.com/2017/04/12/spring-mvc-what-is-requestbody-and-responsebody/
+
+@GETMAPPING, @PUTMAPPING
+
+https://www.javaguides.net/2018/11/spring-getmapping-postmapping-putmapping-deletemapping-patchmapping.html
+
+PUT vs PATCH
+https://www.quora.com/What-is-the-difference-between-PUT-POST-and-PATCH-for-RESTful-APIs
+
+
+Basic @RESTCONTROLLER example
+https://viralpatel.net/blogs/spring-4-mvc-rest-example-json/
+
+https://www.technicalkeeda.com/spring-tutorials/complete-spring-mvc-restful-web-services-example
+
+http://websystique.com/springmvc/spring-4-mvc-rest-service-example-using-restcontroller/

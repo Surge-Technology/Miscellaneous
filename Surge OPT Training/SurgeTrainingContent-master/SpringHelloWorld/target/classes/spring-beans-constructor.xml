@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="student" class="com.surge.spring.constructorexample.Student">
+		<constructor-arg ref="address"></constructor-arg>
+		<constructor-arg value="101"></constructor-arg>
+		<constructor-arg value="VichuFromConstructorInjection"></constructor-arg>
+
+	</bean>
+	<bean id="address" class="com.surge.spring.constructorexample.StudentAddress">
+		<constructor-arg value="cityexm"></constructor-arg>
+		<constructor-arg value="stateexample"></constructor-arg>
+	</bean>
+
+	<bean id="listInjection" class="com.surge.spring.constructorexample.ListInjection">
+		<constructor-arg>
+			<list>
+				<value>Rama</value>
+				<value>Shalu</value>
+				<value>lokesh</value>
+			</list>
+		</constructor-arg>
+	</bean>
+
+	<bean id="setInjection" class="com.surge.spring.constructorexample.SetInjection">
+		<constructor-arg>
+			<set>
+				<value>Vikas</value>
+				<value>Sonu</value>
+				<value>John</value>
+				<value>John</value>
+			</set>
+		</constructor-arg>
+		<constructor-arg>
+			<set>
+				<value>loki</value>
+				<value>amul</value>
+				<value>greesma</value>
+				<value>John</value>
+			</set>
+		</constructor-arg>
+	</bean>
+
+	<bean id="mapInjection" class="com.surge.spring.constructorexample.MapInjection">
+		<constructor-arg>
+			<map>
+				<entry key="101" value="Vikas"></entry>
+				<entry key="102" value="Vicky"></entry>
+				<entry key="101" value="Murali"></entry>
+			</map>
+			
+		</constructor-arg>
+		<constructor-arg>
+			<map>
+				<entry key="101" value="Vikas"></entry>
+				<entry key="102" value="Vicky"></entry>
+				<entry key="101" value="Muralibabu"></entry>
+			</map>
+			
+		</constructor-arg>
+	</bean>
+
+	<bean id="person" class="com.surge.spring.constructorexample.Person">
+		<constructor-arg name="id" value="101"></constructor-arg>
+		<constructor-arg name="name" value="Vikash Kumar"></constructor-arg>
+		<constructor-arg name="addr" value="Hyderabad"></constructor-arg>
+	</bean>
+
+	<bean id="Animal" class="com.surge.spring.constructorexample.ParentStudent">
+		<constructor-arg name="roll">
+			<value>101</value>
+		</constructor-arg>
+		<constructor-arg name="name">
+			<value>Vikas</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="innerbeanstudent" class="com.surge.spring.constructorexample.InnerBeanStudent">
+		<property name="roll" value="101"></property>
+		<property name="name" value="Vikas"></property>
+		<property name="college">
+			<!-- inner Bean -->
+			<bean id="innerBean" class="com.surge.spring.constructorexample.College">
+				<property name="collegeName" value="LNCT"></property>
+				<property name="collegeAddr" value="Bhopal"></property>
+			</bean>
+		</property>
+	</bean>
+	<bean id="helloWorldSingleton" class="com.surge.spring.constructorexample.HelloWorldSingleton"
+		scope="singleton">
+	</bean>
+	<!-- bean inheritance -->
+	<bean id="dog" parent="Animal"></bean>
+
+</beans>

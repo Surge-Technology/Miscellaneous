@@ -1,0 +1,171 @@
+Getting Started Hibernate:
+	What is ORM?
+	ORM Architecture
+	What is Hibernate Framework?
+	How does Hibernate relate to JDBC?
+	Hibernate Archietecture
+	Configuration (org.hibernate.cfg.Configuration)
+	SessionFactory (org.hibernate.SessionFactory)
+	Session (org.hibernate.Session)
+	Transaction (org.hibernate.Transaction)
+	Query API 
+	Hibernate Object States 
+	What are the important benefits of using Hibernate Framework?
+	
+	
+	https://www.javaguides.net/2018/11/hibernate-framework-overview-architecture-bascis.html
+	https://www.wideskills.com/hibernate/hibernate-api
+	
+	
+Hibernate example – Step by step hello world example (https://howtodoinjava.com/hibernate/hibernate-3-introduction-and-writing-hello-world-application/)
+	How hibernate works
+	Relation of hibernate with JPA
+	Java Hibernate hello world example
+	Create a maven project
+	Import java project to eclipse workspace
+	Hibernate Maven Dependencies
+	Hibernate Configuration
+	Hibernate entity class
+	Hibernate session factory
+	Run the Hello World Program - Demo
+==================
+another hibernate hello world example - http://websystique.com/hibernate/hibernate-mysql-maven-hello-world-example-xml/
+
+=======================================
+
+Hibernate Query Language: - https://examples.javacodegeeks.com/enterprise-java/hibernate/hibernate-query-language-example/
+Hibernate Query Language: 
+What is HQL?
+HQL Select Query Example
+HQL Update Query Example
+HQL Delete Query Example
+HQL Insert Query Example
+Hibernate parameter binding
+Named parameters
+Positional parameters
+===============================================================================================================================
+
+http://javainsimpleway.com/hibernate-crud-operations-with-java-web-application/
+Hibernate CRUD example with MYSQL
+First create the database schema and tables to perform the CRUD operations
+Create a Java Maven project in eclipse
+Create the hibernate configuration file 
+Create a User model class 
+Create the mapping file for User Model
+Create Utility class for creating sessionfactory object
+Create DAO class to interact with Database 
+Create Service class to interact with DAO layer
+Create Main client class to perform CRUD operations
+Run the Project
+
+
+
+
+
+
+=======================================================
+
+https://www.javaguides.net/2018/12/hibernate-transaction-management-tutorial.html
+
+also check this url https://examples.javacodegeeks.com/enterprise-java/hibernate/hibernate-transaction-example/
+
+Hibernate Transaction Management:
+What is a transaction?
+ACID Properties
+Transaction Interface
+HibernateTransaction Management CRUD Project
+Create Maven project
+Database & Table Creation
+Java Class Creation
+Implementation of Model Class
+Implementation of Utility Class
+Implementation of Main Class
+Hibernate Configuration File
+Run the Application
+
+
+==================================================================
+Hibernate Hello World example using Annotation - https://viralpatel.net/blogs/hibernate-hello-world-example-annotation/
+
+Hibernate Hello World example using Annotation
+
+Database Creation
+Create Project Structure - maven project
+Update Hibernate dependency in Maven pom.xml
+Delete unused .hbm.xml
+Update Employee entity
+Update Hibernate Utility
+Update Hibernate Configuration file
+Run the project.
+
+
+===================================================================================
+Hibernate One To One Annotation Mapping - https://viralpatel.net/blogs/hibernate-one-to-one-mapping-tutorial-using-annotation/
+
+Hibernate One To One Annotation Mapping
+Database with One-to-one relationship tables
+Model class to Entity class
+Update Hibernate Configuration
+Update Hibernate Dependency in Maven
+Update Hibernate Utility class
+Main class to test One-to-one mapping
+Run the main application
+===============================================================================================
+Hibernate One To Many Annotation - https://viralpatel.net/blogs/hibernate-one-to-many-annotation-tutorial/
+
+Database Setup
+Project Structure Setup Validation
+Update Maven Dependency for Annotation
+Update Hibernate Model Class
+Update Hibernate Configuration File
+Update main class to test One-to-many mapping
+Run the project
+
+===============================================================
+Hibernate Inheritance: Table Per Class Hierarchy (Annotation & XML Mapping) - https://viralpatel.net/blogs/hibernate-inheritence-table-per-hierarchy-mapping/
+
+Introduction to Inheritance in Hibernate
+One Table Per Class Hierarchy example
+Create Database Table to persist Class Hierarchy
+Hibernate Inheritance: XML Mapping
+Hibernate Inheritance: Annotation Mapping
+About @Inheritance
+About @DiscriminatorColumn
+@DiscriminatorValue
+Run the project
+
+==============================================
+Hibernate Criteria Queries  - https://howtodoinjava.com/hibernate/hibernate-criteria-queries-tutorial/
+
+About Criteria API
+How to get Criteria Object
+Hibernate criteria – using Restrictions
+Restrictions.eq() Example
+Restrictions.ne() Example
+Restrictions.like() and Restrictions.ilike() example
+Restrictions.isNull() and Restrictions.isNotNull() example
+Combining Two or More Criteria Examples
+Restrictions.sqlRestriction() Example
+Hibernate criteria – sort query results
+
+========================
+
+SpringBoot + Hibernate Integration project - https://hellokoding.com/registration-and-login-example-with-spring-security-spring-boot-spring-data-jpa-hsql-jsp/
+
+Registration + Login Tutorial and Example with Spring Boot, Spring Security, Spring Data JPA, Hibernate, HSQL, JSP and Bootstrap
+
+
+Build Login Screen
+Build Registration Screen
+Build Logout Screen
+Build the project structure and dependency using Spring Initializer
+Define JPA Entities and Repositories
+JPA and Hibernate Entities
+Spring Data JPA Repositories
+Define Services
+Build Security Service
+Provide service for Registering account 
+Define Validator, Controllers and View Templates
+Define Controllers
+JSP View Templates with Bootstrap
+Define Properties, Configurations

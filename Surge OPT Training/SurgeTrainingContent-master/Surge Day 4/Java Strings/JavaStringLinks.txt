@@ -1,0 +1,50 @@
+http://www.ntu.edu.sg/home/ehchua/programming/java/j3d_string.html
+https://www.javastring.net/pool
+https://www.java2novice.com/java_string_examples/stringbuffer_compare_strings/
+https://www.edureka.co/blog/java-string/
+
+public class Example{
+public static void main(String args[]{ 
+String s1="hello"; 
+String s2="whatsup"; 
+System.out.println("string length is: "+s1.length());  
+System.out.println("string length is: "+s2.length()); 
+}}
+
+public class ConcatExample{
+public static void main(String args[]){
+String s1="hello";
+s1=s1.concat("how are you");
+System.out.println(s1);
+}}
+
+public class StringTrimExample{  
+public static void main(String args[]){  
+String s1="  hello   ";  
+System.out.println(s1+"how are you");        // without trim()  
+System.out.println(s1.trim()+"how are you"); // with trim()  
+}}  
+
+public class StringLowerExample{
+public static void main(String args[]){
+String s1="HELLO HOW Are You?”;
+String s1lower=s1.toLowerCase();
+System.out.println(s1lower);}
+}
+
+class ContainsExample{ 
+public static void main(String args[]){ 
+String name=" hello how are you doing"; 
+System.out.println(name.contains("how are you"));  // returns true
+System.out.println(name.contains("hello"));        // returns true  
+System.out.println(name.contains("fine"));         // returns false  
+}}
+
+public class EqualsIgnoreCaseExample{ 
+public static void main(String args[]){ 
+String s1="hello"; 
+String s2="HELLO"; 
+String s3="hi";
+System.out.println(s1.equalsIgnoreCase(s2));   // returns true
+System.out.println(s1.equalsIgnoreCase(s3));   // returns false
+}}

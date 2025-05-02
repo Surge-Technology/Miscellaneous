@@ -1,0 +1,19 @@
+http://cse.iitkgp.ac.in/~dsamanta/java/ch6.htm
+
+https://www.techbeamers.com/java-multithreading-with-examples/
+
+New
+Runnable
+Running
+Non-Runnable (blocked)
+Terminated
+
+New- A thread is in New state when you create the instance of thread class, but the start() method is yet to get called.
+
+Runnable- The thread is in runnable after executing the start() method. In this stage, it waits for the thread scheduler to run it.
+
+Running- A thread picked by the thread scheduler for execution remains in running state.
+
+Non-Runnable (blocked)- In this state, the thread remains alive, but it is not eligible to run. It may be due to some sleep operation, waiting for any File I/O to finish or in the locked state, etc.
+
+Terminated- A thread is said to be in the terminated state when it’s Run() method exits.
